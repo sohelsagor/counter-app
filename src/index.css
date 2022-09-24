@@ -1,13 +1,89 @@
+* {
+  box-sizing: border-box;
+
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #348be2;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.conterBody {
+  box-shadow: 1px solid #ecf5fe;
+  border-radius: 5px;
+  margin: 50px;
+  background: white;
+  height: 498px;
+  width: 529px;
+  display: inline-block;
+  border: none;
+  border-radius: 12px;
+}
+.header {
+  background: #348be2;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 44px;
+}
+.card {
+  border: 5px solid #eee;
+  border-radius: 5px;
+  height: 100px;
+  width: 40px;
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 19px solid transparent;
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white),
+    linear-gradient(38deg, #348be2 50%, lightgrey 30%);
+  background-position: center center, left top, right top, left bottom,
+    right bottom;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+  margin-left: 163px;
+  margin-bottom: 40px;
+}
+.counter {
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 55px;
+  color: #348be2;
+}
+.btn {
+  margin: 16px;
+  border: none;
+  color: white;
+  font-size: 23px;
+  border-radius: 4px;
+  background: #348be2;
+}
+.btn:hover {
+  color: #348be2;
+  background: #d3d3d3;
+}
+
+.btn:disabled {
+  background: red;
+  color: white;
 }
